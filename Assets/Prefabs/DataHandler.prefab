@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1897692780467938}
+  m_IsPrefabAsset: 1
+--- !u!1 &1897692780467938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4120549340875224}
+  - component: {fileID: 114235529134950702}
+  - component: {fileID: 114286155304120724}
+  - component: {fileID: 114781798719766092}
+  m_Layer: 0
+  m_Name: DataHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120549340875224
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897692780467938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.01204, y: -4.901632, z: -0.29452527}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114235529134950702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897692780467938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0877df4d51ccc2a42bee81e49d60afbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantBoxes: {fileID: 0}
+  dynamoDBHandler: {fileID: 114781798719766092}
+--- !u!114 &114286155304120724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897692780467938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c7f2d6a75cbe644b9ac8fec7ed1328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IdentityPoolId: us-east-1:04ceb567-f209-4104-80fd-b17f27110ab0
+  CognitoIdentityRegion: us-east-1
+  S3Region: us-east-1
+  S3BucketName: spordena15102b183ff4128b4ef6d0604708374-sporden
+  JsonFile: playerprefs.json
+--- !u!114 &114781798719766092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897692780467938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43c25f1370fdd44caaf85c2b5df3f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QueryPK: spordan2018@gmail.com
+  QueryTableName: done_list
+  resultText: {fileID: 0}
+  IdentityPoolId: us-east-1:04ceb567-f209-4104-80fd-b17f27110ab0
+  CognitoPoolRegion: us-east-1
+  DynamoRegion: us-east-1
+  LoadCheck: 0
+  DynamoDB_Data: {fileID: 0}
+  timeData: []

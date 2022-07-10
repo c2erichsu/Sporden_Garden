@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: dbf6c684d3ee8304981bae10d8d71667
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: handbook 1_0
+    21300002: handbook 1_1
+    21300004: handbook 1_2
+    21300006: handbook 1_3
+    21300008: handbook 1_4
+    21300010: handbook 1_5
+    21300012: handbook 1_6
+    21300014: handbook_0
+    21300016: handbook_1
+    21300018: handbook_2
+    21300020: handbook_3
+    21300022: handbook_4
+    21300024: handbook_5
+    21300026: handbook_6
+    21300028: handbook_7
+    21300030: handbook_8
+    21300032: handbook_9
+    21300034: handbook_10
+    21300036: handbook_11
+    21300038: handbook_12
+    21300040: handbook_13
+    21300042: handbook_14
+    21300044: handbook_15
+    21300046: handbook_16
+    21300048: handbook_17
+    21300050: handbook_18
+    21300052: handbook_19
+    21300054: handbook_20
+    21300056: handbook_21
+    21300058: handbook_22
+    21300060: handbook_23
+    21300062: handbook_24
+    21300064: handbook_25
+    21300066: handbook_26
+    21300068: handbook_27
+    21300070: handbook_28
+    21300072: handbook_29
+    21300074: handbook_30
+    21300076: handbook_31
+    21300078: handbook_32
+    21300080: handbook_33
+    21300082: handbook_34
+    21300084: handbook_35
+    21300086: handbook_36
+    21300088: handbook_37
+    21300090: handbook_38
+    21300092: handbook_39
+    21300094: handbook_40
+    21300096: handbook_41
+    21300098: handbook_42
+    21300100: handbook_43
+    21300102: handbook_44
+    21300104: handbook_45
+    21300106: handbook_46
+    21300108: handbook_47
+    21300110: handbook_48
+    21300112: handbook_49
+    21300114: handbook_50
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: handbook_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1412
+        width: 507
+        height: 314
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e679287c99560884abf353b05c87a3dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1412
+        width: 507
+        height: 382
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34086bb72753cc4db32338b5487b626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 957
+        width: 507
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7679bed6bd658740861200ac805778b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 956
+        width: 508
+        height: 358
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d0982f3e1f69f4d850219013e5164f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 456
+        width: 508
+        height: 354
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92eab31324eb05647ad2910c4cf87d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_5
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 457
+        width: 507
+        height: 335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b26594960c3b4dbd69782acf16623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handbook_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 508
+        height: 387
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d9ebdcbd18f2e4cbf1247aadd62295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a66aa301c135f74d84b3b9f925bac1f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

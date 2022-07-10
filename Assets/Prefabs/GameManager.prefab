@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1180291765455500}
+  m_IsPrefabAsset: 1
+--- !u!1 &1180291765455500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4833744656459814}
+  - component: {fileID: 114735636197897990}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4833744656459814
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180291765455500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4254415, y: 0.49769506, z: 330.28516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114735636197897990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180291765455500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98007d4fb012464d9211ca8d554dd9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataHandler: {fileID: 0}
+  UI_Garden: {fileID: 0}
+  flowers: {fileID: 0}
+  plantBoxes: {fileID: 0}
+  plantBoxQuantity: 0
+  rose: {fileID: 1133250222531546, guid: 8fdc81b7898f551479efe6fdd97826c9, type: 2}
+  phalaenopsis: {fileID: 1289436309892754, guid: 272cb3972f28acb42876a353c5f0b786,
+    type: 2}
+  pear: {fileID: 1608545035921498, guid: 1eba544679f1f124e9d8aef259cc714e, type: 2}
+  tomato: {fileID: 1500762738821236, guid: 6eca50e6d50e4c144be0f4ecc17e1a69, type: 2}
+  lotus: {fileID: 1596502851249494, guid: c9f164e2438d05549b97f3a9b9e8fa35, type: 2}
+  hydrangea: {fileID: 1504533709563614, guid: a06ec4d3f93219c45af76b30b52e9eec, type: 2}
+  purple: {fileID: 1637432112447678, guid: d84a15724b479ca4b9c3e08c2c6f4be0, type: 2}
+  yellow: {fileID: 1814162645392308, guid: 8effa6d2af63a574fa5533cc6ccbdfd3, type: 2}
